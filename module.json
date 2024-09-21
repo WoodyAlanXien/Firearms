@@ -24,8 +24,10 @@
     {
       "name": "Firearms",
       "label": "Firearms",
-      "path": "packs/Firearms",
+      "path": "packs/firearms.db",
+      "entity": "Item",
       "type": "Item",
+      "package": "dnd5e-firearms",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -35,8 +37,10 @@
         {
       "name": "Classes",
       "label": "Classes",
-      "path": "packs/classes",
+      "path": "packs/classes.db",
       "type": "Item",
+      "entity": "Item",
+      "package": "dnd5e-firearms",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -46,13 +50,55 @@
             {
       "name": "Classes Features",
       "label": "Classes Features",
-      "path": "packs/classes-features",
+      "path": "packs/classes-features.db",
       "type": "Item",
+      "entity": "Item",
+      "package": "dnd5e-firearms",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+            {
+      "name": "Subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses.db",
+      "type": "Item",
+      "entity": "Item",
+      "package": "dnd5e-firearms",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+            {
+      "name": "Subclasses Features",
+      "label": "Subclasses Features",
+      "path": "packs/subclasses-features.db",
+      "type": "Item",
+      "entity": "Item",
+      "package": "dnd5e-firearms",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "D&D 5e Firearms",
+      "sorting": "m",
+      "color": "#3f8230",
+      "packs": [
+        "firearms",
+        "classes",
+        "class-features",
+        "subclasses",
+        "subclass-features"
+      ]
     }
   ],
   "relationships": {
