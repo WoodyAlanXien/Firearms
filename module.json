@@ -20,10 +20,6 @@
   "esmodules": [
     "scripts/firearms.js"
   ],
-  "flags": {
-    "compatible": [
-      "dnd5e"
-    ],
   "packs": [
     {
       "name": "Firearms",
