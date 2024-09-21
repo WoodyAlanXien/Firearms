@@ -1,0 +1,54 @@
+
+{
+  "id": "firearms",
+  "name": "dnd5e-firearms",
+  "title": "D&D 5e Firearms",
+  "version": "1.0.01",
+  "download": "https://github.com/WoodyAlanXien/Firearms/releases/download/v1.0.01/dnd5e-firearms.zip",
+  "manifest": "https://github.com/WoodyAlanXien/Firearms/releases/download/latest/module.json",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "WoodyAlanXien",
+      "email": "woodyxien@gmail.com",
+      "discord": "https://discord.gg/VtPK55FqfB"
+    }
+  ],
+  "esmodules": [
+    "scripts/firearms.js"
+  ],
+  "flags": {
+    "compatible": [
+      "dnd5e"
+    ],
+
+  "packs": [
+    {
+      "name": "Firearms",
+      "label": "Firearms",
+      "path": "packs/Firearms",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.1"
+        }
+      }
+    ]
+  },
+  "description": "A simple module adding some Firearm options into dnd5e.",
+  "url": "https://github.com/WoodyAlanXien/Firearms/"
+}
