@@ -18,13 +18,13 @@
     }
   ],
   "esmodules": [
-    "scripts/firearms.js"
+    "./scripts/firearms.js"
   ],
   "packs": [
     {
       "name": "Firearms",
       "label": "Firearms",
-      "path": "packs/Firearms",
+      "path": "./packs/Firearms",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
@@ -42,5 +42,6 @@
       }
     ]
   },
-  "description": "A simple module adding some Firearm options into dnd5e."
+  "description": "A simple module adding some Firearm options into dnd5e.",
+ "url": "https://github.com/WoodyAlanXien/Firearms/"
 }
