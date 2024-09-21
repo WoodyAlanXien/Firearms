@@ -1,15 +1,15 @@
 // Adds new Weapon types of firearms
 Hooks.once("init", () => {
-  CONFIG.DND5E.weaponIds.pepperbox = "Compendium.firearms.Firearms.Item.nNEiOHEz56f6apkx";
-  CONFIG.DND5E.weaponIds.ppistol= "Compendium.firearms.Firearms.Item.UlMNqYsoK0HP79jx";
-  CONFIG.DND5E.weaponIds.musket= "Compendium.firearms.Firearms.Item.hombrYzWQUlyE4VF";
-  CONFIG.DND5E.weaponIds.revolver= "Compendium.firearms.Firearms.Item.LzUPOOdWwjCD5FX8";
-  CONFIG.DND5E.weaponIds.rrifle= "Compendium.firearms.Firearms.Item.igZtOR2uAi0jx2ri";
-  CONFIG.DND5E.weaponIds.blunderb= "Compendium.firearms.Firearms.Item.8why0RMryg9yZiJ4";
-  CONFIG.DND5E.weaponIds.lrifle= "Compendium.firearms.Firearms.Item.0JRdsYpq07GsEdU5";
-  CONFIG.DND5E.ammoIds.ball= "Compendium.firearms.Firearms.Item.FJTN1Mi401lvd8MO";
-  CONFIG.DND5E.ammoIds.cartridge= "Compendium.firearms.Firearms.Item.s14CfJfP39H7aMWW";
-  CONFIG.DND5E.ammoIds.grape= "Compendium.firearms.Firearms.Item.yV33LSTQqzXJFL1T";
+  CONFIG.DND5E.weaponIds.pepperbox = "Compendium.firearms.Firearms.Item.fiaJ4CtFtoymANcA";
+  CONFIG.DND5E.weaponIds.ppistol= "Compendium.firearms.Firearms.Item.LF7CFJ8IRVpBpzeK";
+  CONFIG.DND5E.weaponIds.musket= "Compendium.firearms.Firearms.Item.0u3S8wLLOT7837ur";
+  CONFIG.DND5E.weaponIds.revolver= "Compendium.firearms.Firearms.Item.s4f58BFQtcuQm6im";
+  CONFIG.DND5E.weaponIds.rrifle= "Compendium.firearms.Firearms.Item.O9lWoD9oIlf93thr";
+  CONFIG.DND5E.weaponIds.blunderb= "Compendium.firearms.Firearms.Item.G6qSdyJCOkhLjT8e";
+  CONFIG.DND5E.weaponIds.lrifle= "Compendium.firearms.Firearms.Item.peuUoenjWztgLcxN";
+  CONFIG.DND5E.ammoIds.ball= "Compendium.firearms.Firearms.Item.rI6VCnhEyNaRSl4y";
+  CONFIG.DND5E.ammoIds.cartridge= "Compendium.firearms.Firearms.Item.KJSg4bdqhSuUa9xg";
+  CONFIG.DND5E.ammoIds.grape= "Compendium.firearms.Firearms.Item.FgLQObQAH8dFAFMW";
   CONFIG.DND5E.consumableTypes.ammo.subtypes.ball= "Bullet, Ball";
   CONFIG.DND5E.consumableTypes.ammo.subtypes.cartridge= "Bullet, Cartridge";
   CONFIG.DND5E.consumableTypes.ammo.subtypes.grape= "Grapeshot";
