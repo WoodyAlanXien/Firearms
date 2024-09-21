@@ -13,8 +13,8 @@
   "authors": [
     {
       "name": "WoodyAlanXien",
-      "discord": "WoodyAlanXien",
-      "flags": {}
+      "email": "woodyxien@gmail.com",
+      "discord": "https://discord.gg/VtPK55FqfB"
     }
   ],
   "esmodules": [
@@ -43,5 +43,5 @@
     ]
   },
   "description": "A simple module adding some Firearm options into dnd5e.",
- "url": "https://github.com/WoodyAlanXien/Firearms/"
+  "url": "https://github.com/WoodyAlanXien/Firearms/"
 }
