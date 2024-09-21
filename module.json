@@ -1,7 +1,11 @@
-{
+
+    {
   "id": "firearms",
-  "title": "Firearms",
-  "version": "1.0.0",
+  "name": "dnd5e-firearms"
+  "title": "D&D 5e Firearms",
+  "version": "1.0.01",
+  "download": "https://github.com/WoodyAlanXien/Firearms/releases/download/1.0.01/dnd5e-firearms.zip"
+  "manifest": "https://github.com/WoodyAlanXien/Firearms/releases/download/latest/module.json"
   "compatibility": {
     "minimum": "12",
     "verified": "12"
