@@ -35,7 +35,18 @@
         {
       "name": "Classes",
       "label": "Classes",
-      "path": "packs/Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+            {
+      "name": "Classes Features",
+      "label": "Classes Features",
+      "path": "packs/classes-features",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
